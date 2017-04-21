@@ -2,6 +2,9 @@
   "name": "hackathon-starter",
   "version": "4.3.0",
   "description": "A boilerplate for Node.js web applications",
+  "engines": {
+    "node": "6.10.2"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/sahat/hackathon-starter.git"
@@ -13,9 +16,6 @@
     "test": "mocha --reporter spec",
     "postinstall": "npm rebuild node-sass"
   },
-  "engines": {
-    "node": "6.10.2"
-	},
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
     "bluebird": "^3.4.7",
