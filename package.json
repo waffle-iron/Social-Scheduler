@@ -6,16 +6,16 @@
     "type": "git",
     "url": "https://github.com/sahat/hackathon-starter.git"
   },
-  "author": "Joseph Martinsen - Tristan Partin",
-  "license": "",
+  "author": "Sahat Yalkabov",
+  "license": "MIT",
   "scripts": {
     "start": "node app.js",
     "test": "mocha --reporter spec",
     "postinstall": "npm rebuild node-sass"
-	},
-  "engines": {
-    "node": "4.1.1"
   },
+  "engines": {
+    "node": "6.10.2"
+	},
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",
     "bluebird": "^3.4.7",
